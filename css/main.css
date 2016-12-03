@@ -1,0 +1,600 @@
+*
+{
+  margin:0;
+  padding: 0;
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+html body
+{
+	background: url(../images/bg.jpg) no-repeat center  0px fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   font-size: 1.5em;
+   font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+   line-height: 1.4em;
+   color: black;
+}
+
+.clr
+{
+	clear:both;
+}
+.wrapper
+{
+	width: 100%;
+}
+
+nav
+{
+	width: 100%;
+	height: 55px;
+	background-color: black;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+nav #mini_logo 
+{
+	background: url(../images/lol-icon.png);
+	background-size: 100% 100%;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+
+ul 
+{
+	width: 50%;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+li 
+{
+	list-style: none;
+	float: left;
+	width: 25%;
+	color: yellow;
+	padding-top: 7px;
+}
+
+li:hover
+{
+	color: orange;
+	cursor: pointer;
+}
+
+li a
+{
+	text-decoration: none;
+	color: yellow;
+}
+
+li a:hover
+{
+	color: orange;
+	cursor: pointer;
+}
+
+#social
+{
+	width: 200px;
+	height: 100%;
+	margin-right: 20px;
+	float: right;
+}
+
+#login
+{
+	height: 30px;
+	width: 80px;
+}
+
+#login img
+{
+	width: 30%;
+}
+
+#login p
+{
+ width: 70%;
+}
+
+#join
+{
+	height: 30px;
+	width: 100px;
+	padding-left: 7px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+}
+
+#button
+{
+	background: url(../images/button.png) 0 -293px;
+	color: #b2d9db;
+  height: 30px;
+  padding: 10px 0 0 0;
+  text-align: center;
+  width: 129px; 
+}
+
+#button:hover
+{
+	background: url(../images/button.png) 0 -237px;
+}
+
+#button:active
+{
+  background: url(https://cdn.leagueoflegends.com/riotbar/prod/1.6.34/images/account/sprites-s2a5147f733.png) 0 -181px;
+  color: #005a82;
+}
+
+#button a
+{
+	color: #b2d9db;
+}
+
+#social li img
+{
+	float: left;
+}
+
+#social li p
+{
+	float: left;
+}
+
+#social li:nth-child(1)
+{
+	border-right: 1px solid gray;
+}
+
+#logo
+{
+	height: 180px;
+	width: 25%;
+	margin: 100px auto 0 auto;
+	background-image: url(../images/loool.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.margin
+{
+	width: 100%; height: 250px;
+}
+
+section
+{
+	margin: 0 auto;
+	width: 980px;
+	min-height: 1800px;
+	border-left: 5px solid rgba(84,84,84,0.3);
+    border-top: 5px solid rgba(8, 0, 0, 0.62);
+    border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+    border-right: 5px solid rgba(84,84,84,0.3);
+	background-color: rgb(222, 222, 222);
+}
+
+#block
+{
+	width: 100%;
+	height: 305px;
+	/*background-color: yellow;*/
+}
+
+#border1
+{	
+	width: 49%;
+	height: 280px;
+	margin-left: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+  float: left;
+}
+
+#text1
+{
+	width: 48%;
+	height: 300px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	line-height: 1.7em;
+	
+}
+
+#text1 h2 
+{
+	font-size: 1.7em;
+	text-align: center;
+}
+
+#text1 p
+{
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.border2
+{
+	width: 98%;
+	height: 68px;
+	margin: 10px auto;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.mid-div
+{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/lol-textures.jpg) no-repeat center -6px;
+	color: white;
+}
+
+.mid-div h2
+{
+	padding-top: 10px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 1em;
+	font-size: 2em;
+	font-weight: normal;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+.paragraf
+{
+	margin: 15px auto 0 auto;
+	width: 98%;
+}
+
+#block1
+{
+	width: 100%;
+	height: 350px;
+}
+
+.slika_sa_tekstom
+{
+	margin-top: 20px;
+	margin-left: 16px;
+	width: 48%;
+	height: 280px;
+	float: left;
+}
+
+.slika_sa_tekstom a
+{
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+.border3
+{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.img_description
+{
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+  font-size: 1.33333em;
+  font-weight: normal;
+  color: #3e3f41;
+  margin: 5px 0 0 0;
+  line-height: 1.1em;
+}
+
+#block2
+{
+	width: 100%;
+	height: 270px;
+}
+
+.slika_sa_tekstom1
+{
+	margin-top: 20px;
+	margin-left: 16px;
+	width: 31.222%;
+	height: 180px;
+	float: left;
+}
+
+.slika_sa_tekstom1 a
+{
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#border4
+{
+	width: 98%;
+	height: 130px;
+	margin: 20px auto 0 auto;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+#beli_kamen
+{
+	width: 100%;
+	height: 100%;
+	background: #e9eaec;
+	box-sizing: border-box;
+	padding: 20px;
+	float: left;
+}
+
+#beli_kamen h3 
+{
+	font-size: 1.73333em;
+  font-weight: normal;
+  font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+  line-height: 1em;
+  color: #2b2b2b;
+}
+
+.game_modes
+{
+	width: 100%;
+	height: 305px;
+}
+
+.border5
+{
+	margin-top: 20px;
+	margin-left: 13px;
+	width: 49%;
+	height: 280px;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+  float: left;
+}
+
+.portret
+{
+	width: 100%;
+	height: 100%
+}
+
+.objasnjenje
+{
+	width: 46%;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.objasnjenje h3
+{
+	font-size: 1.73333em;
+  font-weight: normal;
+  font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+  line-height: 1em;
+}
+
+.objasnjenje p
+{
+	margin-top: 17px;
+}
+
+.hr
+{
+	width: 95%;
+	background-color: #d1d3d4;
+	border: 0;
+	border-top: 1px solid #d1d3d4;
+	border-bottom: 1px solid #f9f9fa;
+	color: #d1d3d4;
+	display: block;
+	box-sizing: border-box;
+	height: 2px;
+	margin: 10px auto 0 auto;
+}
+
+footer
+{
+	width: 100%;
+	height: 120px;
+	border-top: 1px solid navy;
+	background: black;	
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    height: 35px;
+    padding: 12px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: #1e2328;
+    border: 1px solid #785a28;
+    box-sizing: border-box;
+    color: #a09b8c; 
+}
+
+input[type=checkbox]
+{
+	margin-top: 5px;
+	background-color: #1e2328;
+  border: 1px solid #785a28;
+  float: left;
+}
+
+#boja
+{
+	color: #a09b8c;
+	float: left;
+	margin-left: 3px;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #1e2328;
+    border: 2px solid #5c5b57;
+    color: #a09b8c;
+    padding: 14px 20px;
+    margin: 25px 0 0 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover
+{
+	border-image: linear-gradient(to top, #3295c7 0%, #0ac8b9 49%, #cdfafa 100%);
+	border-image-slice: 1;
+	color:white;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: 50%;
+    padding: 10px 18px;
+    float: left;
+    background-color: #1e2328;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    height: 20px;
+}
+
+.container {
+   margin-top: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 32px;
+    color: #a09b8c;
+}
+
+span.psw a
+{
+	text-decoration: none;
+	color: #f0e6d2;
+}
+
+/* The Model (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: black;
+	border: 2px solid #463714;
+	width: 380px;
+	height: 500px;
+	margin: 100px auto 0 auto;
+ /* Could be more or less, depending on screen size */
+}
+
+#login-content
+{
+	margin: 24px;
+}
+
+header
+{
+	float: left;
+}
+
+header h2
+{
+	font-family: "Spiegel-Regular";
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f0e6d2;
+}
+
+label
+{
+	font-weight: normal;
+  font-size: 12px;
+  color: #a09b8c;
+  text-align: left;
+  float: left;
+}
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}

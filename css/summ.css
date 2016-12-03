@@ -1,0 +1,396 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.clr
+{
+	clear: both;
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+html body
+{
+	background-image: url(../images/bg.jpg);
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  background-position: top center;
+  background-repeat: no-repeat;
+	font-size: 1.5em;
+  font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+  line-height: 1.4em;
+}
+
+/*background za twisted tree line*/
+#tt
+{
+	background-image: url(../images/game_modes/tt.jpg);
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/*background za howling abyss*/
+#ha
+{
+	background-image: url(../images/game_modes/ha.jpg);
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+html body p
+{
+	text-align: justify;
+}
+
+.wrapper
+{
+	width: 100%;
+}
+
+nav
+{
+	width: 100%;
+	height: 55px;
+	background-color: black;
+	padding-top: 10px;
+	box-sizing: border-box;	
+}
+
+nav #mini_logo
+{
+	background: url(../images/lol-icon.png);
+	background-size: 100% 100%;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+
+nav ul 
+{
+	width: 50%;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li 
+{
+	list-style: none;
+	float: left;
+	width: 25%;
+	color: yellow;
+	padding-top: 7px;
+}
+
+nav ul li:hover
+{
+	color: orange;
+	cursor: pointer;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: yellow;
+}
+
+nav ul li a:hover
+{
+	color: orange;
+	cursor: pointer;
+}
+
+#logo
+{
+	height: 180px;
+	width: 25%;
+	margin: 100px auto 0 auto;
+	background-image: url(../images/loool.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.margin
+{
+	width: 100%; height: 200px;
+}
+
+section
+{
+	border-left: 5px solid rgba(84,84,84,0.3);
+  border-top: 5px solid rgba(8, 0, 0, 0.62);
+  border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+  border-right: 5px solid rgba(84,84,84,0.3);
+	background-color: rgb(222, 222, 222);
+	margin: 0 auto;
+	width: 1000px;
+	min-height: 700px;
+}
+
+section nav
+{
+	width: 100%;
+	height: 48px;
+	padding-top: 6px;
+	background-color: black
+}
+
+section nav ul 
+{
+	width: 100%;
+}
+
+section nav ul li
+{
+	text-align: center;
+	width: 33%;
+}
+
+section nav ul li:hover
+{
+	cursor: pointer;
+}
+
+section nav ul li a
+{
+	color: white;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	font-size: .9em;
+}
+
+section nav ul li a:hover
+{
+	color: #2ecfec;
+	cursor: pointer;
+}
+
+#levi_desni
+{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+#top_div
+{
+	width: 100%;
+	height: 200px;
+}
+
+#slika
+{
+	width: 33%;
+	height: 200px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.border
+{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+#text
+{
+	width: 64.6667%;
+	height: 184px;
+	padding-top: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#text h1
+{
+	font-weight: normal;
+  font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+  line-height: 1em;
+  color: #2b2b2b;
+  font-size: 2em;
+}
+
+#text p
+{
+	    font-size: .9em;
+}
+
+
+.border2
+{
+	width: 96%;
+	height: 68px;
+	margin: 10px auto 0 auto;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.mid-div
+{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/lol-textures.jpg) no-repeat center -6px;
+	color: white;
+}
+
+.mid-div h2
+{
+	padding-top: 13px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 1em;
+	font-size: 2em;
+	font-weight: normal;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+#middle_div
+{
+	width: 98%;
+	height: 300px;
+/*	border: 1px solid red;*/
+}
+
+#middle_text
+{
+	width: 50%;
+	padding-top: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#middle_text p
+{
+  font-size: .9em;
+  line-height: 2em;
+}
+
+#slika2
+{
+	width: 50%;
+	height: 300px;
+	padding-left: 20px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#bottom_div
+{
+	width: 98%;
+	height: 700px; 
+}
+
+/*CSS za twisted tree line*/
+#bottom_div_tt
+{
+	width: 98%;
+	height: 500px; 
+}
+
+/*CSS za Howling abyss*/
+#bottom_div_ha
+{
+	width: 98%;
+	height: 420px; 
+}
+
+.bottom_wrap
+{
+	width: 33.333%;
+	height: 500px;
+	padding-top: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.border1
+{
+	width: 100%;
+	height: 174px;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.bottom_wrap h4
+{
+	font-size: 1.33333em;
+  color: #3e3f41;
+  margin: 10px 0 0 0;
+  line-height: 1.1em;
+}
+
+.bottom_wrap p 
+{
+	margin-top: 15px;
+	font-size: .9em;
+}
+
+.arrow
+{
+	margin-top: 10px;
+	list-style-image: url(../images/game_modes/bullet.png); 
+}
+
+.bottom_wrap ol
+{
+	margin-top: 15px;
+	margin-left: 8px;
+}
+
+.hr
+{
+	width: 95%;
+	background-color: #d1d3d4;
+	border: 0;
+	border-top: 1px solid #d1d3d4;
+	border-bottom: 1px solid #f9f9fa;
+	color: #d1d3d4;
+	display: block;
+	box-sizing: border-box;
+	height: 2px;
+	margin: 10px auto 0 auto;
+}
+
+footer
+{
+	width: 100%;
+	height: 120px;
+	border-top: 1px solid navy;
+	background: black;	
+}

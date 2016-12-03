@@ -1,0 +1,1189 @@
+*{margin:0; padding: 0}
+
+
+html body 
+{
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+
+.clr
+{
+	clear: both;
+}
+
+#nav
+{
+	width: 100%;
+	height: 40px;
+	border: 1px solid black;
+	list-style: none;
+	float: left;
+	/*border: 1px solid green;*/
+	background: black;
+	color: yellow;
+	padding-top: 10px;
+}
+
+#mini_logo
+{
+	background: url(../images/lol-icon.png) no-repeat;
+	background-size: 100% 100%;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+
+#nav ul
+{
+	width: 50%;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+	padding-top: 5px;
+}
+.li
+{
+	list-style: none;
+	float: left;
+	width: 20%;
+}
+
+.li:hover
+{
+	color: orange;
+	cursor: pointer;
+}
+
+.li a 
+{
+	text-decoration: none;
+	color: yellow;
+}
+
+.li a:hover 
+{
+	color: orange;
+	cursor: pointer;
+}
+/************************************************************************************************/
+/*Posto je vise strana vezano za jedan CSS moram da napravim vise wrapova zbog background slike*/
+/**********************************************************************************************/
+#wrapp_shen
+{
+	background: url(../images/Shen/shen-cover.jpg) no-repeat center  0px fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	padding-top: 60px;
+	border: 1px solid transparent;
+}
+
+#wrapp_darius
+{
+	background: url(../images/Darius/Darius.jpg) no-repeat center  0px fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	padding-top: 60px;
+	border: 1px solid transparent;
+}
+
+#wrapp_akali
+{
+	background: url(../images/Akali/Akali.jpg) no-repeat center  0px fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	padding-top: 60px;
+	border: 1px solid transparent;
+}
+
+#wrapp_vladimir
+{
+	background: url(../images/Vladimir/Vladimir.jpg) no-repeat center  0px fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	padding-top: 60px;
+	border: 1px solid transparent;
+}
+
+#wrapp_katarina
+{
+	background: url(../images/Katarina/Katarina.jpg) no-repeat center  0px fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	padding-top: 60px;
+	border: 1px solid transparent;
+}
+
+#wrapp_talon{
+	background: url(../images/Talon/Talon.jpg) no-repeat center  0px fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	padding-top: 60px;
+	border: 1px solid transparent;
+}
+/*********************************************************************************************/
+#logo
+{
+	height: 220px;
+	width: 30%;
+	margin: 100px auto 0 auto;
+	background-image: url(../images/loool.png); 
+  background-size: 100% 100%;
+}
+
+#margin
+{
+	width: 100%; 
+	height: 300px;
+}
+
+/********************/
+/*Section 1 ceo css*/
+/******************/
+
+#section1 
+{
+	background-color: rgb(222, 222, 222);
+	width: 1050px;
+	height: 1120px;
+	margin: 0 auto;
+	padding: 10px;
+	border-left: 5px solid rgba(84,84,84,0.3);
+  border-top: 5px solid rgba(8, 0, 0, 0.62);
+  border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+  border-right: 5px solid rgba(84,84,84,0.3);
+}
+
+#top-wrapp
+{
+	width: 100%;
+	height: 570px;
+	margin: 0 auto;
+}
+
+#border2 
+{
+	width: 48%;
+	height: 446px;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+  float: left;
+}
+
+#left-div
+{
+	height: 100%;
+	display: block;
+	background-color: white;
+}
+
+#centar-levog-diva
+{
+	width: 100%;
+	height: 444px;
+	margin: 0 auto;
+}
+
+#gornji-deo-levog-diva
+{
+	height: 40%;
+	border-bottom: 1px solid rgba(84,84,84,0.3);
+}
+
+#slika
+{
+	width: 32%;
+	height: 100%;
+	float: left;
+}
+
+#shen_vugla
+{
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+#container
+{
+	width: 66%;
+	height: 100%;
+	float: right;
+}
+
+#ime
+{
+	height: 50%;
+}
+
+#ime h2
+{
+	margin-top: 25px;
+}
+
+#text
+{
+	height: 50%;
+}
+
+#donji-deo-levog-diva
+{
+	height: 59%;
+	margin: 0 auto;
+}
+
+.stats
+{
+	width: 49%;
+	float: left;
+	height: 100%;
+}
+/************************************************************************************************/
+/*Posto je vise strana vezano za jedan CSS moram da napravim vise stats p za vise heroja */
+/**********************************************************************************************/
+.darius-stats 
+{
+	padding-top: 15px;
+}
+
+.stats p
+{
+margin-top: 10px;
+}
+
+.stat-hp
+{
+	background: url(../images/ikonice.png) no-repeat 0 -150px;
+	margin-left: 30px;
+}
+
+.stat-mana
+{
+	background: url(../images/ikonice.png) no-repeat 0 -200px;
+	margin-left: 30px;
+}
+
+.stat-ad
+{
+	background: url(../images/ikonice.png) no-repeat 0 0;
+	margin-left: 30px;
+}
+
+.stat-as
+{
+	background: url(../images/ikonice.png) no-repeat 0 -50px;
+	margin-left: 30px;
+}
+
+.stat-ms
+{
+	background: url(../images/ikonice.png) no-repeat 0 -75px;
+	margin-left: 30px;
+}
+
+.stat-hpr
+{
+	background: url(../images/ikonice.png) no-repeat 0 -175px;
+	margin-left: 30px;
+}
+
+.stat-mnr
+{
+	background: url(../images/ikonice.png) no-repeat 0 -225px;
+	margin-left: 30px;
+}
+
+.stat-ar
+{
+	background: url(../images/ikonice.png) no-repeat 0 -25px;
+	margin-left: 30px;
+}
+
+.stat-mr
+{
+	background: url(../images/ikonice.png) no-repeat 0 -125px;
+	margin-left: 30px;
+}
+
+#right-div
+{
+	width: 50%;
+	height: 570px;
+	float:right;
+}
+
+#clip
+{
+	height: 50%;
+	margin-left: 10px;
+}
+
+#clip-text
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 25%;
+}
+
+.hr
+{
+	width: 95%;
+	background-color: #d1d3d4;
+	border: 0;
+	border-top: 1px solid #d1d3d4;
+	border-bottom: 1px solid #f9f9fa;
+	color: #d1d3d4;
+	display: block;
+	box-sizing: border-box;
+	height: 2px;
+	margin: 20px auto 0 auto;
+}
+
+#skill
+{
+	height: 25%;
+}
+
+#podnaslov
+{
+	height: 30%;
+	width: 150px;
+}
+
+#podnaslov h3
+{
+	margin-left: 16px;
+	font-size: 1.4em;
+	margin-top: 2px;
+}
+
+#slicice
+{
+	height: 65%;
+}
+
+.abilities 
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 8px; 
+	padding: 3px
+}
+
+.mid
+{
+	height: 100%;
+	background: url(../images/mid.jpg) no-repeat center -6px;
+	color: white;
+}
+
+.mid h2
+{
+	padding-top: 13px;
+	padding-left: 15px;
+}
+
+#slike-content
+{
+	width: 100%;
+	height: 440px;
+	margin-top: 20px;
+	margin-left: 12px;
+	margin-right: 10px;
+}
+
+.slike
+{
+	width: 30.33%;
+	height: 180px;
+	float: left;
+	margin: 20px 10px;
+}
+
+.skin 
+{
+width: 100%;
+height: 100%;
+}
+
+#video1
+{
+	height: 210px;
+	width: 450px;
+}
+
+#film
+{
+	padding-left: 40px;
+}
+	
+/*****************************************************************/
+
+/*********************/
+/*Sekction 2 all css*/
+/********************/
+
+#section2 
+{
+	background-color: rgb(222, 222, 222);
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1050px;
+	height: 1500px;
+	padding: 10px;
+	border-left: 5px solid rgba(84,84,84,0.3);
+  border-top: 5px solid rgba(8, 0, 0, 0.62);
+  border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+  border-right: 5px solid rgba(84,84,84,0.3);
+}
+
+/**************************/
+/*Sekction 2 za vladimira*/
+/************************/
+
+#section2 {
+	background-color: rgb(222, 222, 222);
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1050px;
+	height: 1550px;
+	padding: 10px;
+	border-left: 5px solid rgba(84,84,84,0.3);
+  border-top: 5px solid rgba(8, 0, 0, 0.62);
+  border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+  border-right: 5px solid rgba(84,84,84,0.3);
+}
+
+.text_video 
+{
+	width: 95%;
+	height: 240px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/******************/
+/* Tekst za Akali*/
+/****************/
+#text_video_akali
+{
+	width: 95%;
+	height: 280px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+/**********************/
+/* Tekst za Vladimira*/
+/********************/
+#text_video_vladimir
+{
+	width: 95%;
+	height: 280px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#text_video_vladimir1
+{
+	width: 95%;
+	height: 70px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+/********************/
+#tekst1
+{
+	width: 58%;
+	float: left;
+	height: 290px;
+}
+
+#text_video1
+{
+	width: 95%;
+	height: 290px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#text1
+{
+	height: 205px;
+}
+
+.tekst
+{
+	width: 58%;
+	float: left;
+	height: 220px;
+}
+
+.wrapic
+{
+	width: 99%;
+	height: 85px;
+}
+
+.container
+{
+	width: 16.66667%;
+	float: left;
+	display: inline-block;
+}
+
+.slicica1
+{
+	margin: 0 auto;
+}
+
+.naslov_magije
+{
+	width: 81%;
+	float: left;
+	position: relative;
+	height: 85px;
+}
+
+.text
+{
+	height:135px; 
+}
+
+.opis
+{
+	margin-left: 13px;
+}
+
+.atributi
+{
+	margin-left: 13px;
+}
+
+.video
+{
+	width: 100%;
+	float: right;
+	margin-top: 2px;
+	margin-right: 4px;
+	height: 240px;
+	position: relative;
+	margin: 0 auto;
+}
+/*****************************************/
+/*********************/
+/*Sekction 3 all css*/
+/********************/
+/****************************/
+/*Sekction 3 za vise heroja*/
+/**************************/
+#section3 
+{
+  background-color: rgb(222, 222, 222);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 1050px;
+  height: 470px;
+  padding: 10px;
+ 	border-left: 5px solid rgba(84,84,84,0.3);
+  border-top: 5px solid rgba(8, 0, 0, 0.62);
+  border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+  border-right: 5px solid rgba(84,84,84,0.3);
+}
+
+
+#section3_darius 
+{
+  background-color: rgb(222, 222, 222);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 1050px;
+  height: 590px;
+  padding: 10px;
+ 	border-left: 5px solid rgba(84,84,84,0.3);
+  border-top: 5px solid rgba(8, 0, 0, 0.62);
+  border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+  border-right: 5px solid rgba(84,84,84,0.3);
+}
+
+#section3_vladimir 
+{
+  background-color: rgb(222, 222, 222);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 1050px;
+  height: 630px;
+  padding: 10px;
+ 	border-left: 5px solid rgba(84,84,84,0.3);
+  border-top: 5px solid rgba(8, 0, 0, 0.62);
+  border-bottom: 5px solid rgba(8, 0, 0, 0.62);
+  border-right: 5px solid rgba(84,84,84,0.3);
+}
+ /****************************************************/
+
+#text_levi_div
+{
+	width: 49%;
+	height: 448px;
+	float: left;
+}
+
+#krila
+{
+	height: 120px;
+	width: 60%;
+	background-image: url(../images/golden-wings.png); 
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+
+#f_e_list
+{
+	float: right;
+	width: 49%;
+	height: 448px;
+}
+
+.friends
+{
+	width: 100%;
+	height: 208px;
+	background-color: #dedede;
+}
+
+#margina_gornja
+{
+	margin-top: 25px;    
+}
+
+.header
+{
+	background: url(../images/mid.jpg) no-repeat center -6px;
+	color: white;
+	height: 50px;
+	width: 100%;
+}
+.header h3 
+{
+	margin-left: 5px;
+	padding-top: 13px;
+	padding-left: 10px;
+}
+
+.grid-list
+{
+	height: 156px;
+	width: 100%;
+}
+
+.grid-list li 
+{
+	background-color: white;
+	height: 156px;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	background-color: #efefef;
+	width: 32.93%;
+	list-style: none;
+	float: left;
+}
+.grid 
+{ 
+	text-align: center;
+}
+
+.margine_slike
+{
+	margin-top: 20px;
+	margin-left: 38px;
+}
+/*****************************************/
+
+.boja_zelena
+{
+	color: rgb(7, 154, 7);	
+}
+
+.boja_crvena
+{
+	color: #ff6c00;
+}
+
+.boja_jako_crvena 
+{
+	color: #8B0000;
+}
+
+.border
+{
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.border1
+{
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.border3
+{
+	width: 95%;
+  height: 60px;
+  margin-top: 20px;
+	color: white;
+  margin-left: 20px;
+  box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.border4
+{
+	float: right;
+	width: 40%;
+  height: 230px;
+	color: white;
+  box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.border5
+{
+	float: left;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.border6
+{
+	width: 90px;
+	box-sizing: border-box;
+  padding: 4px;
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(84,84,84,0.3);
+  border-top: 1px solid rgba(84,84,84,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  border-right: 1px solid rgba(255,255,255,0.6);
+}
+/**********************/
+/*CSS za video snimke*/
+/********************/
+
+.responsive-video 
+{
+	opacity: 0;
+	position: relative;
+	transition: opacity .2s ease-in-out;
+}
+
+.responsive-video.loaded 
+{
+	opacity: 1;
+}
+
+.responsive-video.loaded video 
+{
+	height: 100%;
+	left: 0;
+	outline: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.responsive-video .controls-wrapper 
+{
+	bottom: 0;
+	cursor: pointer;
+	font-size: 16px;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+    right: 0;
+	top: 0;
+}
+
+.responsive-video .controls-bottom-tray 
+{
+	align-items: center; 
+	background: rgba(0,0,0,.5);	
+	box-shadow: 0px -1px 5px rgba(255,255,255,.25);
+	bottom: 0;
+	color: #fff;
+	cursor: default;
+	display: flex;
+	font-family: sans-serif;
+	font-weight: 100;
+	left: 0;
+	min-height: .100em;
+	padding: 0;
+	position: absolute;	
+	right: 0;
+	transition: all .15s ease-in-out;
+}
+
+.controls-wrapper:hover .controls-bottom-tray 
+{ 
+	min-height: 2.1875em;
+	padding: .5em 0;	
+}
+
+.controls-bottom-tray > * 
+{
+	margin: 0 .75em;
+    min-width: 1em;
+}
+
+.controls-wrapper .play-button 
+{
+	cursor: pointer;
+	left: 50%;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	transition: opacity .3s ease-in-out;
+}
+
+.controls-wrapper:hover .play-button 
+{
+	opacity: 1;
+	animation-name: fade-out;
+	animation-duration: .7s;
+	animation-delay: 2s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.controls-wrapper .play-button:before,
+.controls-wrapper .play-button:after 
+{
+	content: "";
+	display: block;
+	width: 0; 
+}
+
+video:not(.playing) ~ .controls-wrapper .play-button:after 
+{
+	border-top: 1.5em solid transparent;
+	border-bottom: 1.5em solid transparent;
+	border-left: 2.625em solid #fff;
+	height: 0; 
+}
+
+video.playing ~ .controls-wrapper .play-button:before,
+video.playing ~ .controls-wrapper .play-button:after 
+{
+	border-left: .625em solid #fff;
+	float: left;
+	height: 3em;
+}
+
+video.playing ~ .controls-wrapper .play-button:before 
+{
+	margin-right: 1.375em;
+}
+
+@keyframes fade-out 
+{
+    from {opacity: 1;}
+    to   {opacity: 0;}
+}
+
+.controls-bottom-tray .track 
+{
+	background: rgba(255,255,255,.5);
+	border-radius: .0625em;
+	cursor: pointer;
+	flex-grow: 1;
+	height: .125em;
+	position: relative;
+	transition: all .15s ease-in-out;
+	width: 50%;
+}
+
+.controls-wrapper:not(:hover) .controls-bottom-tray .track 
+{ 
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.controls-bottom-tray:hover .track 
+{
+	height: .375em;
+}
+
+.controls-bottom-tray .track .track-loader-bar,
+.controls-bottom-tray .track .track-bar 
+{
+	border-radius: .0625em;
+	height: 100%;
+	transition: width .3s linear;
+	width: 0;
+}
+
+.controls-bottom-tray .track .track-loader-bar 
+{
+	background: rgba(255,0,0,.3);
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.controls-bottom-tray .track .track-bar 
+{
+    background: red;
+}
+
+.controls-bottom-tray .track .timer-flag 
+{
+	background: #eee;	
+	bottom: 100%;
+	color: #333;
+	cursor: none;
+	font-size: .625em;
+	line-height: .625em;
+	margin-bottom: 4px;
+	opacity: 0;
+	padding: .5em;
+	position: absolute;
+	transform: translateX(-50%);
+	transition: opacity .15s linear;
+	z-index:10;
+}
+
+.controls-bottom-tray .track:hover .timer-flag 
+{
+	opacity: 1;
+}
+
+.controls-bottom-tray .track .timer-flag:after 
+{	
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #eee;
+	content:"";
+	height: 0;
+	left: 50%;
+	position: absolute;
+	top: 100%;
+	transform: translateX(-50%);
+	width: 0;
+}
+
+.controls-bottom-tray .counter 
+{
+	display: none;
+	font-size: .8125em;
+	min-width: 5.385em;
+}
+
+.controls-wrapper:hover .controls-bottom-tray .counter 
+{
+	display: block;
+}
+
+.controls-bottom-tray .mute-button 
+{
+	cursor: pointer;
+	display: none;
+	position: relative;
+}
+
+.controls-wrapper:hover .controls-bottom-tray .mute-button 
+{
+	display: block;
+}
+
+.controls-bottom-tray .mute-button:before 
+{
+	border-top: .5em solid transparent;
+	border-bottom: .5em solid transparent;	
+	border-right: .875em solid #fff;
+	content:"";
+	display: block;
+	height: 0; 
+}
+
+.controls-bottom-tray .mute-button:after 
+{
+	background: #fff;
+	content: "";
+	display: block;
+	height: .375em;
+	left: 10%;
+	position: absolute;
+	width: .625em;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.controls-bottom-tray .volume-button 
+{
+	display: none;
+	flex-shrink: 0;
+	opacity: 0;
+	position: absolute;
+	transition: opacity .3s ease-in-out;
+}
+
+.controls-wrapper:hover .controls-bottom-tray .volume-button 
+{
+	display: block;
+}
+
+.controls-bottom-tray .volume-button.active 
+{
+	opacity: 1;
+}
+
+.controls-bottom-tray .volume-button input 
+{
+	display: none;
+	position: absolute;
+	bottom: 100%;
+	right: 0;
+	width: calc( 200% + 2em );
+}
+
+.controls-wrapper .fullscreen-button 
+{
+	cursor: pointer;
+	display: block;
+	opacity: 0;
+	right: .5rem;
+	top: .5rem;
+	transform: rotate(135deg);
+	transform-origin: 50% 50%;
+	transition: opacity .3s ease-in-out, top .1s linear, right .1s linear;
+}
+
+.controls-wrapper:hover .fullscreen-button 
+{
+	opacity: 1;
+}
+
+.controls-wrapper .fullscreen-button:hover 
+{
+	right: .25rem;
+	top: .25rem;
+}
+
+.controls-wrapper .fullscreen-button,
+.controls-wrapper .fullscreen-button span 
+{
+	position: absolute;
+	width: 1.24em;
+}
+
+.controls-wrapper .fullscreen-button:before,
+.controls-wrapper .fullscreen-button span:before
+{
+	border-top: .625em solid transparent;
+	border-bottom: .625em solid transparent; 
+	border-right: .625em solid #fff; 
+	content:"";
+	display:block;
+	height: 0;	
+	width: 0; 	
+}
+
+.controls-wrapper .fullscreen-button:after,
+.controls-wrapper .fullscreen-button span:after 
+{
+	background-color: #fff;
+	content:"";
+	display: block;
+	height: .25em;
+	position: absolute;
+	top: 50%;
+	transform: translate(.625em, -50%);
+	transition: width .1s linear;
+	width: 0;
+}
+
+.controls-wrapper .fullscreen-button:hover:after,
+.controls-wrapper .fullscreen-button:hover span:after 
+{
+	width: .625em;
+}
+
+.controls-wrapper .fullscreen-button span 
+{
+	left:0;
+	top: 0;
+	transform: rotate(180deg);
+	transform-origin:50 50%;
+	transition: left .1s linear;
+}
+
+.controls-wrapper .fullscreen-button:hover span 
+{
+	left:100%;
+}
+
+/***************************************/
+footer{
+	width: 100%;
+	height: 120px;
+	border-top: 1px solid navy;
+	background: black;	
+}
+
+
+

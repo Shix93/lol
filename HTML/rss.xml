@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+   <channel>
+    <title>Beton Club Belgrade</title>
+      <link>http://www.beton-milica-opacic.dx.am</link>
+      <description>Klub za noćne izlaske</description>
+    <item>
+      <title>Rezervacije</title>
+      <link>
+      http://www.beton-milica-opacic.dx.am/pages/rezervacije.html
+      </link>
+      <description>
+      Ovde možete izvršiti rezervacije putem telefona ili online popunjavanjem forme
+      </description>
+    </item>
+    <item>
+      <title>Kontakt</title>
+      <link>
+      http://www.beton-milica-opacic.dx.am/pages/kontakt.html
+      </link>
+      <description>Kontakt stranica kluba Beton</description>
+    </item>
+  </channel>
+</rss>
